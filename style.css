@@ -1,0 +1,23 @@
+:root{
+    --text-nav: 'Montserrat';
+}
+.navbar{
+    width: 120px;
+    z-index: 999;
+}
+body{
+    background: #000000;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: var(--text-nav);
+}
+.nav-img{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    opacity: 0.6;
+}
+
+header img{
+    width: 60%;
+}
