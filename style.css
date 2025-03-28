@@ -21,3 +21,19 @@ h1,h2,h3,h4,h5,h6,a,p{
 header img{
     width: 60%;
 }
+.border-separate{
+    margin-top: 20px;
+    width: 25vh;
+    border-bottom: 2px solid grey;
+}
+.navbar-telephone{
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.744);
+    align-items: center;
+}
+.navbar-telephone a{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
