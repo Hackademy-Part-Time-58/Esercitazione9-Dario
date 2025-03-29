@@ -1,6 +1,9 @@
 :root{
     --text-nav: 'Montserrat';
 }
+*{
+    font-family: var(--text-nav);
+}
 .navbar{
     width: 120px;
     z-index: 999;
@@ -17,9 +20,12 @@ h1,h2,h3,h4,h5,h6,a,p{
     width:100%;
     opacity: 0.6;
 }
+.navbar-nav a:hover{
+    background-color: black;
+}
 
 header img{
-    width: 60%;
+    width: 80%;
 }
 .border-separate{
     margin-top: 20px;
@@ -36,4 +42,46 @@ header img{
     color: grey;
     text-decoration: none;
     font-size: 12px;
+}
+.progress{
+    border-radius: 0;
+    height: 3vh;
+}
+.progress-bar{
+    width: 95%;
+    background-color: grey;
+    /* border-radius: 0; */
+}
+.progress-bar2{
+    width: 85%;
+    background-color: grey;
+    /* border-radius: 0; */
+}
+.progress-bar3{
+    width: 80%;
+    background-color: grey;
+    
+}
+/* @media  screen and (max-width: 912px) {
+    .navbar {
+        width: 10%;
+    }
+} */
+.container-patnership{
+    margin-top: 50px;
+    height: 13vh;
+}
+.btn{
+    border-radius: 0px;
+}
+.title-card{
+    height: 60px;
+}
+.card-text{
+    border-bottom:2px solid rgba(128, 128, 128, 0.325);
+    height: 60px;
+}
+.myrep {
+    height: 80px;
+    width: 80px;
 }
