@@ -85,3 +85,19 @@ header img{
     height: 80px;
     width: 80px;
 }
+.card{
+    border-radius: 0;
+}
+.card-opacity{
+    opacity: 0.4;
+}
+.card-opacity:hover{
+    opacity: 1;
+}
+.style-bar{
+    height: 60px;
+}
+.footer{
+    top: 60px;
+    height: 30vh;
+}
